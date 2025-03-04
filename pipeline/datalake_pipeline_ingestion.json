@@ -13,7 +13,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/carloseduardo_lps@outlook.com/pipeline_datalake_databricks_azure/notebooks/datalake_pipeline_inbound_bronze"
+				},
+				"linkedServiceName": {
+					"referenceName": "datalake_databricks_datafactory",
+					"type": "LinkedServiceReference"
+				}
 			},
 			{
 				"name": "Inbound_silver",
@@ -33,7 +40,14 @@
 					"secureOutput": false,
 					"secureInput": false
 				},
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"notebookPath": "/Repos/carloseduardo_lps@outlook.com/pipeline_datalake_databricks_azure/notebooks/datalake_pipeline_inbound_silver"
+				},
+				"linkedServiceName": {
+					"referenceName": "datalake_databricks_datafactory",
+					"type": "LinkedServiceReference"
+				}
 			}
 		],
 		"annotations": []
