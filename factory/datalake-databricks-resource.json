@@ -1,0 +1,9 @@
+{
+	"name": "datalake-databricks-resource",
+	"location": "eastus2",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "814e7e9d-e55e-4e0a-8837-42d591ba3f5d",
+		"tenantId": "dd1c0caa-cfad-4ea4-99da-b19a06a5d815"
+	}
+}
