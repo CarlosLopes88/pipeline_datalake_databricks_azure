@@ -120,10 +120,11 @@
 				"type": "ScheduleTrigger",
 				"typeProperties": {
 					"recurrence": {
-						"frequency": "Hour",
+						"frequency": "Day",
 						"interval": 1,
 						"startTime": "2025-03-04T16:05:00",
-						"timeZone": "E. South America Standard Time"
+						"timeZone": "E. South America Standard Time",
+						"schedule": {}
 					}
 				}
 			},
